@@ -1,0 +1,9 @@
+<Project>
+    <!-- in turn, import Microsoft.NET.Sdk's Sdk.targets -->
+    <Import Sdk="Microsoft.NET.Sdk" Project="Sdk.targets"/>
+    
+    <!-- extend the build with custom logic -->
+    <Target Name="DoSomething" AfterTargets="Build">
+        <Message Importance="high" Text="Custom build SDK is working!" />
+    </Target>
+</Project>

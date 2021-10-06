@@ -1,0 +1,4 @@
+<Project>
+    <!-- in turn, import Microsoft.NET.Sdk's Sdk.props -->
+    <Import Sdk="Microsoft.NET.Sdk" Project="Sdk.props" />
+</Project>
