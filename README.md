@@ -1,6 +1,6 @@
 # .NET 6 Preview - Sdk NuGet packages broken for WPF projects
 
-[https://github.com/dotnet/msbuild/issues/6916](https://github.com/dotnet/msbuild/issues/6916)
+[https://github.com/dotnet/wpf/issues/5463](https://github.com/dotnet/wpf/issues/5463)
 
 ## Issue Description
 
