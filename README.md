@@ -1,5 +1,7 @@
 # .NET 6 Preview - Sdk NuGet packages broken for WPF projects
 
+[https://github.com/dotnet/msbuild/issues/6916](https://github.com/dotnet/msbuild/issues/6916)
+
 ## Issue Description
 
 I have created a custom SDK. This SDK imports Microsoft.NET.Sdk to use its functionality and also extends the build with new functionality of its own. Whereas most projects build fine using the custom SDK, this is broken for WPF projects as of the .NET 6 preview (this worked in .NET 5). The error is as follows:
